@@ -17,11 +17,10 @@ function initMap() {
       label: labels[i % labels.length],
     });
   });
-
+}
 const locations = [
 { lat: 43.64167, lng: -79.42696 },
 { lat: 43.68737, lng: -79.41116 },
 { lat: 43.71616, lng: -79.33733 },
 { lat: 43.85149, lng: -79.53852 }
 ];
-}
