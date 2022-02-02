@@ -6,10 +6,22 @@ function initMap() {
   
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 10,
-    center: { lat: 43.664832, lng: -79.392706 },
+    center: mt,
    });
-  const marker = new google.maps.Marker({
+  const m_mt = new google.maps.Marker({
     position: mt,
+    map: map,
+  });
+  const m_cl = new google.maps.Marker({
+    position: cl,
+    map: map,
+  });
+  const m_osc = new google.maps.Marker({
+    position: osc,
+    map: map,
+  });
+  const m_cw = new google.maps.Marker({
+    position: cw,
     map: map,
   });
 }
